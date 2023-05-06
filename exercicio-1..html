@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+</head>
+
+<body>
+    <div id="container">
+        <button onclick="buttonColor()">Mude a cor</button>
+
+        <h1>Minha Lista</h1>
+        <ul id="lista"></ul>
+        <form>
+            <label for="item">Digite um item:</label>
+            <input type="text" id="item">
+            <button type="button" onclick="addItem()">Enviar</button>
+        </form>
+
+        <h1>Botão de Troca de Imagem</h1>
+        <img width="100px" height="100px" id="imagem" src="imagem1.jpg">
+        <br>
+        <button onclick="trocarImagem()">Trocar Imagem</button>
+
+        <h1>Botão de Mensagem</h1>
+        <button onclick="exibirMensagem()">Abra o texto</button>
+        <div id="mensagem"></div>
+
+        <div id="elemento-oculto">
+            Conteúdo que será oculto
+        </div>
+
+        <button onclick="ocultarElemento()">Ocultar Elemento</button>
+    </div>
+</body>
+
+</html>
